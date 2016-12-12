@@ -13,7 +13,7 @@ weight_kg = weight * 0.453592
 print "Let's talk about %s." % name
 print "He's %d inches tall." % height
 print "He's %d pounds heavy." % weight
-print "In Europe, He's %d centimeters and %d kilograms." % (height_cm, weight_kg)
+print "In Europe, He's %d centimeters and %.2f kilograms." % (height_cm, weight_kg)
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are unusually %s depending on the coffee." % teeth
