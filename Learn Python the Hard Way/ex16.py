@@ -9,7 +9,10 @@ print "If you do want that, hit RETURN (Or ENTER)."
 raw_input("?")
 
 print "Opening the file..."
-target = open(filename, 'w')
+target = open(filename)
+
+print "Reading the file...\n"
+print target.read()
 
 print "Truncating the file. Goodbye!"
 target.truncate()
