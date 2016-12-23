@@ -14,6 +14,7 @@ target = open(filename, 'r+')
 print "Reading the file...\n"
 print target.read()
 
+print "Set the file pointer back to the beginning..."
 target.seek(0)
 
 print "Truncating the file. Goodbye!"
