@@ -16,7 +16,7 @@ def print_one(arg1):
 def print_none():
     print "I got nothin'."
 
-print_two("Jorge", "Yorge")
-print_two_again("Jorge", "Yorge")
-print_one("Yorge")
+print_two("Zed", "Shaw")
+print_two_again("Zed", "Shaw")
+print_one("Zed")
 print_none()
